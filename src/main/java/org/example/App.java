@@ -9,11 +9,11 @@ public class App
         Scanner scnr = new Scanner(System.in);
 
         System.out.println("What is the quote?");
-        String string = scnr.nextLine();
+        String quote = scnr.nextLine();
 
         System.out.println("Who said it?");
-        String string2 = scnr.nextLine();
+        String person = scnr.nextLine();
 
-        System.out.println(string2 + " says " + "\""+ string + "\"");
+        System.out.println(person + " says, \"" + quote + "\"");
     }
 }
